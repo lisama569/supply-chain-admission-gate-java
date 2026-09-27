@@ -1,0 +1,27 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "bom-ref": "pkg:maven/com.acme/widget-core@2.1.0",
+      "name": "widget-core",
+      "version": "2.1.0",
+      "purl": "pkg:maven/com.acme/widget-core@2.1.0",
+      "licenses": [{"license": {"id": "Apache-2.0"}}],
+      "supplier": {"name": "Acme Corp"},
+      "hashes": [{"alg": "SHA-256", "content": "aaaa1111"}]
+    },
+    {
+      "bom-ref": "pkg:maven/com.acme/legacy-lib@0.9.0",
+      "name": "legacy-lib",
+      "version": "0.9.0",
+      "purl": "pkg:maven/com.acme/legacy-lib@0.9.0",
+      "licenses": [{"license": {"id": "GPL-3.0-only"}}],
+      "supplier": {"name": "Acme Corp"}
+    }
+  ],
+  "vulnerabilities": [
+    {"id": "CVE-2026-0001", "affects": [{"ref": "pkg:maven/com.acme/legacy-lib@0.9.0"}]},
+    {"id": "CVE-2026-0002", "affects": [{"ref": "pkg:maven/com.acme/legacy-lib@0.9.0"}]}
+  ]
+}

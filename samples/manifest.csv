@@ -1,0 +1,3 @@
+name,version,purl,license,vulnerabilities,supplier,sha256
+widget-core,2.1.0,pkg:maven/com.acme/widget-core@2.1.0,Apache-2.0,,Acme Corp,aaaa1111
+risky-lib,3.0.0,pkg:maven/com.acme/risky-lib@3.0.0,WTFPL,CVE-2026-1001;CVE-2026-1002,Acme Corp,

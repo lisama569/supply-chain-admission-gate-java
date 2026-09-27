@@ -1,0 +1,7 @@
+{
+  "issuer": "acme-release",
+  "repository": "https://repo.acme.example/releases",
+  "signedPayload": "acme-release:widget-core@2.1.0",
+  "signature": "bbe70e9574b161034e54de1b6ce30a03ba0a21eaa24625c50bcb2e49e53e0e5d",
+  "declaredSupplier": "Other Corp"
+}

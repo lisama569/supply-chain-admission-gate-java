@@ -1,0 +1,7 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {"name": "no-version-lib", "licenses": [{"license": {"id": "MIT"}}]}
+  ]
+}

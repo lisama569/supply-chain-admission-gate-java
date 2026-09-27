@@ -1,0 +1,21 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "sample-product",
+  "packages": [
+    {
+      "name": "widget-core",
+      "versionInfo": "2.1.0",
+      "licenseConcluded": "Apache-2.0",
+      "supplier": "Organization: Acme Corp",
+      "checksums": [{"algorithm": "SHA256", "checksumValue": "aaaa1111"}],
+      "externalRefs": [{"referenceType": "purl", "referenceLocator": "pkg:maven/com.acme/widget-core@2.1.0"}]
+    },
+    {
+      "name": "util-kit",
+      "versionInfo": "1.0.0",
+      "licenseConcluded": "MIT",
+      "supplier": "Organization: Acme Corp",
+      "vulnerabilities": []
+    }
+  ]
+}

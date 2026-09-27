@@ -1,0 +1,5 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "9.9",
+  "components": [{"name": "x", "version": "1.0"}]
+}

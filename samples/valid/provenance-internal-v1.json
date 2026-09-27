@@ -1,0 +1,16 @@
+{
+  "provenanceVersion": 1,
+  "buildType": "https://acme-corp.example/buildTypes/mvn",
+  "slsaLevel": 1,
+  "subject": {
+    "digestAlg": "SHA-256",
+    "digest": "5d351a2a6c0ec81fefa1890c2ed0d4e3a7d2fc261e980a72dbc681ada0cd6682"
+  },
+  "builder": {
+    "id": "pkg:generic/acme-corp/local-laptop-builder@v1"
+  },
+  "source": {
+    "uri": "git+https://scm.acme-corp.example/billing/billing-core",
+    "revision": "sha1:cafe"
+  }
+}

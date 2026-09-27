@@ -1,0 +1,16 @@
+{
+  "provenanceVersion": 1,
+  "buildType": "https://acme-corp.example/buildTypes/mvn",
+  "slsaLevel": 3,
+  "subject": {
+    "digestAlg": "SHA-256",
+    "digest": "6ad6156ae9053e8bc5709440a20cfc31d4a1277d2b1c82e97c15f29b44ebdd9c"
+  },
+  "builder": {
+    "id": "pkg:generic/trusted-builder@v1"
+  },
+  "source": {
+    "uri": "git+https://scm.acme-corp.example/gateway/edge-gateway",
+    "revision": "sha1:abc123def456"
+  }
+}

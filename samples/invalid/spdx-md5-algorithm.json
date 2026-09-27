@@ -1,0 +1,60 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "payments-service",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-payments-service",
+      "name": "payments-service",
+      "versionInfo": "4.2.0",
+      "supplier": "Organization: acme-corp",
+      "licenseDeclared": "Apache-2.0",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-log4j-core",
+      "name": "log4j-core",
+      "versionInfo": "2.14.0",
+      "supplier": "Organization: apache",
+      "licenseDeclared": "Apache-2.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9d7f1479908f0a314e248b6024052a35fcbc553079cffd1f72d1b93738e5e34f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-legacy-math",
+      "name": "legacy-math",
+      "versionInfo": "1.0.0",
+      "licenseDeclared": "AGPL-3.0-only",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b8a0ee6a560b8e0064669827c95a6e79c1033754659f559c1793ad0c11262721"
+        }
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2021-44228",
+      "affected": "log4j-core",
+      "severity": "CRITICAL",
+      "cvss": 10.0
+    },
+    {
+      "id": "CVE-2020-9999",
+      "affected": "legacy-math",
+      "severity": "LOW",
+      "cvss": 2.1
+    }
+  ]
+}

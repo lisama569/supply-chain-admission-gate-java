@@ -1,0 +1,16 @@
+{
+  "provenanceVersion": 1,
+  "buildType": "https://other.example/build",
+  "slsaLevel": 1,
+  "subject": {
+    "digestAlg": "SHA-256",
+    "digest": "5d351a2a6c0ec81fefa1890c2ed0d4e3a7d2fc261e980a72dbc681ada0cd6682"
+  },
+  "builder": {
+    "id": "pkg:generic/shady-vendor/builder@v9"
+  },
+  "source": {
+    "uri": "git+https://evil.example/billing-core",
+    "revision": "sha1:1111"
+  }
+}

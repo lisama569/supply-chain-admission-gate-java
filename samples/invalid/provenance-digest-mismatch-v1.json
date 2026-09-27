@@ -1,0 +1,16 @@
+{
+  "provenanceVersion": 1,
+  "buildType": "https://acme-corp.example/buildTypes/mvn",
+  "slsaLevel": 3,
+  "subject": {
+    "digestAlg": "SHA-256",
+    "digest": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  "builder": {
+    "id": "pkg:generic/trusted-builder@v1"
+  },
+  "source": {
+    "uri": "git+https://scm.acme-corp.example/payments/payments-service",
+    "revision": "sha1:deadbeef"
+  }
+}

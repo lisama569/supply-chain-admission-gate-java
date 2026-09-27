@@ -1,0 +1,51 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "edge-gateway",
+      "version": "7.0.1",
+      "supplier": {
+        "name": "acme-corp"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ad6156ae9053e8bc5709440a20cfc31d4a1277d2b1c82e97c15f29b44ebdd9c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "jackson-databind",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "287748ba16e3992aa09ad9a8c843f0d3baa839d9a62cd750acc45ab4cf74bc82"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

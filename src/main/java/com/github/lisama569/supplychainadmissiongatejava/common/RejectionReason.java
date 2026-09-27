@@ -1,0 +1,24 @@
+package com.github.lisama569.supplychainadmissiongatejava.common;
+
+/**
+ * 可区分的拒绝原因。任何输入都不允许静默通过。
+ */
+public enum RejectionReason {
+    UNSUPPORTED_FORMAT,
+    INCOMPATIBLE_VERSION,
+    MALFORMED_DOCUMENT,
+    MISSING_FIELD,
+    UNSUPPORTED_ALGORITHM,
+    MISSING_SIGNATURE,
+    INVALID_SIGNATURE,
+    PROVENANCE_MISMATCH,
+    MISSING_PROVENANCE,
+    INCONSISTENT_SOURCE,
+    DUPLICATE_CONFLICT,
+    POLICY_VERSION_CONFLICT,
+    POLICY_NOT_FOUND,
+    FORBIDDEN,
+    NOT_FOUND,
+    ILLEGAL_STATE,
+    ARGUMENT_INVALID
+}

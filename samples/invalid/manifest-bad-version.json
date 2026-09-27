@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 99,
+  "artifact": {
+    "name": "billing-core",
+    "version": "2.5.0",
+    "supplier": "acme-corp",
+    "digestAlg": "SHA-256",
+    "digest": "5d351a2a6c0ec81fefa1890c2ed0d4e3a7d2fc261e980a72dbc681ada0cd6682"
+  },
+  "licenses": [
+    "Apache-2.0",
+    "AGPL-3.0-only"
+  ],
+  "components": [
+    {
+      "name": "fastjson",
+      "version": "1.2.80",
+      "license": "Apache-2.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2022-25845",
+          "severity": "HIGH",
+          "cvss": 8.1
+        }
+      ]
+    }
+  ]
+}
